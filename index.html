@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .body{
+            margin:0;
+            padding: 0;
+        }
+        .main-container{
+            position: relative;
+            height: 600px;
+            width: 800px;
+            border: 1px solid;
+        }
+        .ust-container{
+            position: absolute;
+            height: 300px;
+            width: 800px;
+            background-color: #f3efdf;
+        }
+        .alt-container{
+            position: absolute;
+            height: 300px;
+            width: 800px;
+            top: 300px;
+            background-color: #30302f;
+        }
+        .orta-container{
+            position: absolute;
+            height: 600px;
+            width: 100px;
+            left: 350px;
+        }
+        button{
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 1;
+        }
+        .main-container:hover  .orta-container{
+            transition: all 3s;
+            transform: rotate(180deg);
+        }
+        .main-container:hover  .ust-container{
+            background-color: #30302f;
+            transition: all 3s;
+        }
+        .main-container:hover  .alt-container{
+            background-color: #f3efdf;
+            transition: all 3s;
+        }
+        .moon{
+            margin-top:380px;
+        }
+        .sun{
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <button>Night Mode</button>
+        <div class="ust-container"></div>
+        <div class="alt-container"></div>
+        <div class="orta-container">
+            <svg class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 456.54 456.54" style="enable-background:new 0 0 456.54 456.54;" xml:space="preserve">
+                <g>
+                    <rect x="215.27" y="379.3" style="fill:#FFDE55;" width="26" height="77.24"/>
+                    <rect x="215.27" style="fill:#FFDE55;" width="26" height="77.24"/>
+                    
+                        <rect x="81.169" y="323.75" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -95.4776 685.1913)" style="fill:#FCEBA2;" width="26" height="77.239"/>
+                    
+                        <rect x="349.372" y="55.544" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 552.0227 416.9835)" style="fill:#FCEBA2;" width="26" height="77.239"/>
+                    <rect y="215.27" style="fill:#FFDE55;" width="77.24" height="26"/>
+                    <rect x="379.3" y="215.27" style="fill:#FFDE55;" width="77.24" height="26"/>
+                    
+                        <rect x="81.169" y="55.548" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -39.005 94.1686)" style="fill:#FCEBA2;" width="26" height="77.239"/>
+                    
+                        <rect x="349.378" y="323.753" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -150.0985 362.3763)" style="fill:#FCEBA2;" width="26" height="77.239"/>
+                    <circle style="fill:#FCEBA2;" cx="228.267" cy="228.271" r="124.003"/>
+                    <circle style="fill:#FFDE55;" cx="228.267" cy="228.271" r="95.142"/>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                </svg>
+                <svg class="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+                    <g>
+                        <path style="fill:#95A5A5;" d="M28,0c-4.489,0-8.717,1.08-12.476,2.959C24.698,7.557,31,17.04,31,28s-6.302,20.443-15.476,25.041   C19.283,54.92,23.511,56,28,56c15.464,0,28-12.536,28-28C56,12.536,43.464,0,28,0z"/>
+                    </g>
+                    <path style="fill:#BDC3C7;" d="M15.5,2.946C24.688,7.539,31,17.03,31,28c0,10.97-6.313,20.461-15.5,25.054  C6.313,48.461,0,38.97,0,28C0,17.03,6.313,7.539,15.5,2.946z"/>
+                    <circle style="fill:#BDC3C7;" cx="29" cy="9" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="29" cy="1" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="25" cy="5" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="29" cy="41" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="29" cy="49" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="25" cy="53" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="9" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="9" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="13" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="13" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="5" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="5" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="17" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="17" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="21" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="21" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="25" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="25" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="29" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="29" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="33" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="33" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="37" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="37" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="41" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="41" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="45" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="41" cy="45" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="37" cy="49" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="45" cy="49" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="33" cy="53" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="49" cy="13" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="49" cy="21" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="53" cy="25" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="49" cy="29" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="53" cy="33" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="49" cy="37" r="1"/>
+                    <circle style="fill:#BDC3C7;" cx="49" cy="45" r="1"/>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
